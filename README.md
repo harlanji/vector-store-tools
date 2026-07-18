@@ -39,6 +39,7 @@ Covers design and use of the following commands. They also have --help (via argp
 * chroma_bson.py - load and dump bson + chroma
 * sqlite_vec_chroma_api.py - chroma-compatible API for sqlite-vec + fts
 * sqlite_vec_chroma.py - chroma query CLI (only works with sqlite3 wrapper rn)
+* chroma_multi_coll.py - query multiple collections with query API (incl sqlite-vec wrapper), join results with RRF
 * util.py - functions for bson + int packing
 
 ## License
