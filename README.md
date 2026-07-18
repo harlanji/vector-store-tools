@@ -40,6 +40,7 @@ Covers design and use of the following commands. They also have --help (via argp
 * sqlite_vec_chroma_api.py - chroma-compatible API for sqlite-vec + fts
 * sqlite_vec_chroma.py - chroma query CLI (only works with sqlite3 wrapper rn)
 * chroma_multi_coll.py - query multiple collections with query API (incl sqlite-vec wrapper), join results with RRF
+* migrate_embeddings.py - migrate chunks from one chroma collection to another. x_zero_emb is good for deferred loads.
 * util.py - functions for bson + int packing
 
 ## License
